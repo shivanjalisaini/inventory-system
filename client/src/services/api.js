@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://inventory-system-5z75.onrender.com/api',
 });
 
 export const getProducts = () => api.get('/products');
