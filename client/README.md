@@ -17,6 +17,23 @@ The frontend (React) consumes REST APIs exposed by the backend (Node.js + Expres
 
 ---
 
+## Live Deployment
+
+### Backend (API)
+
+**Deployed URL:**
+
+```
+https://inventory-system-5z75.onrender.com/api/products
+```
+
+
+### Frontend (Web App)
+
+**Deployed URL:**
+
+https://inventory-system-kappa-blue.vercel.app/products
+
 ## Key Features
 
 * Product CRUD (Create, Read, Update, Delete)
@@ -84,7 +101,7 @@ inventory-management/
 
 ---
 
-## Backend Setup
+## Backend Setup (Local)
 
 ```bash
 cd backend
@@ -100,7 +117,7 @@ http://localhost:5000
 
 ---
 
-## Frontend Setup
+## Frontend Setup (Local)
 
 ```bash
 cd frontend
@@ -118,10 +135,10 @@ http://localhost:5173
 
 ## API Documentation
 
-### Base URL
+### Base URL (Production)
 
 ```
-/api/products
+https://inventory-system-5z75.onrender.com/api
 ```
 
 ### Endpoints
@@ -184,10 +201,10 @@ http://localhost:5173
 
 ## Deployment
 
-* Backend: Render
-* Frontend: Vercel or Netlify
+* Backend: **Render**
+* Frontend: **Vercel / Netlify**
 
-> Note: Update Axios base URL in `frontend/src/services/api.js` for production.
+> Axios base URL must point to the deployed backend API in production.
 
 ---
 
