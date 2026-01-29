@@ -32,7 +32,7 @@ https://inventory-system-5z75.onrender.com/api/products
 
 **Deployed URL:**
 
-https://inventory-system-kappa-blue.vercel.app/products
+https://inventory-system-kappa-blue.vercel.app/
 
 ## Key Features
 
